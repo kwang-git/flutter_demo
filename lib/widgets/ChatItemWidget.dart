@@ -3,8 +3,9 @@ import 'package:flutterdemo/config/Palette.dart';
 import 'package:intl/intl.dart';
 
 class ChatItemWidget extends StatelessWidget{
-  var index;
-  ChatItemWidget(this.index);
+  final int index;
+  //ChatItemWidget(this.index);
+  const ChatItemWidget(this.index);
   @override
   Widget build(BuildContext context) {
 
