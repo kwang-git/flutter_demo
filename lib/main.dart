@@ -10,7 +10,7 @@ class Messio extends StatelessWidget {
     return MaterialApp(
       title: 'Chat App',
       theme: ThemeData(
-        primarySwatch: Palette.primaryColor,
+        primaryColor: Palette.primaryColor,
       ),
       home: ConversationPageSlide(),
     );
