@@ -39,12 +39,14 @@ class InputWidget extends StatelessWidget{
             color: Colors.white,
           ),
           Flexible(
-            child: Container(
+            child:Material(
+              child: Container(
               child: TextField(style: TextStyle(color: Palette.primaryTextColor, fontSize: 15.0),
                 controller: textEditingController,
                 decoration: InputDecoration.collapsed(hintText: 'Type a message', hintStyle: TextStyle(color: Palette.greyColor)),
               ),
             ),
+          ),
           ),
           Material(
             child: new Container(
